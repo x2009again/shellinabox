@@ -837,7 +837,7 @@ static void usage(void) {
 #ifdef HAVE_BIN_LOGIN
                         "'LOGIN' | "
 #endif
-                                   "'SSH' [ : <host> ] | "
+                                   "'SSH' [ : <host> ] [ : <sshPort> ] | "
                         "USER ':' CWD ':' CMD\n"
           "  USER    := %s<username> ':' <groupname>\n"
           "  CWD     := 'HOME' | <dir>\n"
